@@ -1,7 +1,5 @@
 //correcção exercício férias
 
-let btn1 = document.querySelector('#btn1');
-let btn2 = document.querySelector('#btn2');
 let btn3 = document.querySelector('#btn3');
 let btnAddText = document.querySelector('#addTexto');
 let newP = document.createElement('p');
@@ -72,8 +70,17 @@ function addItem(){
  
 }
 
+
+
+//JS
+let btn1 = document.querySelector('#btn1');
 btn1.addEventListener('click',changeColor);
-btn2.addEventListener('click',changeColor);
+
+//Jquery
+let btn2 = $('#btn2');
+btn2.on('click',changeColor);
+
+
 btn3.addEventListener('click',changeColor);
 btnAddText.addEventListener('click', addText, {once:true});
 

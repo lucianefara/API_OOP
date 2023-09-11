@@ -66,8 +66,7 @@ function addItem(){
   let newLi = document.createElement('li');
   newLi.innerText = newItem; 
   myList.appendChild(newLi);
-  
- 
+   
 }
 
 

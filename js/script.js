@@ -2,7 +2,8 @@ const form = document.querySelector('form');
 const produt = document.querySelector('#product');
 const qt = document.querySelector('#qty');
 
-
+const myItems = $('#myItems').text('Cucu novo texto Jquery');
+console.log(myItems);
 
 
 

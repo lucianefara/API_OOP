@@ -47,9 +47,6 @@ function addText(){
     document.body.appendChild(increaseBtn);
     document.body.appendChild(decreaseBtn);
    
-
-
-
 }
 
 function aprendido(){
